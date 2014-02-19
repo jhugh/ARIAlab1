@@ -8,7 +8,7 @@ var doSum = function() {
 var myObj = {
    sayHello: function() {
      document.getElementById("test").innnerHTML = ("Hi! My name is " + this.myName );
-   }
+   }, 
    myName: "John"
 };
 
