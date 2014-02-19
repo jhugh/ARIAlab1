@@ -5,8 +5,6 @@
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 
-
-
 <body>
     <h1>Joseph H. Blogs</h1>
     <em>joeyblogs@gmail.com</em>
@@ -17,5 +15,20 @@
     <br/>
     <iframe width="420" height="315" src="http://youtube.com/embed/GTxW3GWZ5hI" frameborder="0" allowfullscreen></iframe>
     <br/>
+
+    <br/>Input first number:<input id="num1" />
+    <br/>Input first number:<input id="num2" />
+    <br/><input type="button" value="Sum" onclick="doSum();" />
+    <br/>Total = <div id="tot"></div>
+
+<script>
+var doSum = function() {
+  var totalAmt = parseInt(document.getElementById("num1").value)+parseInt(document.getElementById("num2").value);
+  document.getElementById("tot").innerHTML = parseInt(totalAmt); 
+  return;
+}
+</script>    
+    
+    
 </body>
 </html>
