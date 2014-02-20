@@ -12,7 +12,8 @@ var nextObj = {
 var myObj = {
    myName: "John",
    sayHello: function() {
-     document.getElementById("test").innnerHTML = ("Hi! My name is " + this.myName );
+     document.getElementById("testname").innnerHTML = ("Hi! My name is " + this.myName );
+     return;
    }
 }
 
