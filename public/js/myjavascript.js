@@ -4,16 +4,17 @@ var doSum = function() {
   document.getElementById("tot").innerHTML = parseInt(totalAmt); 
 }
 
-var nextObj = {
-   myName: "Jack"
-}
 
 var myObj = {
    myName: "John",
    sayHello: function() {
-     document.getElementById("testname").innerHTML = ("Hi! My name is " + myObj.myName );
+     document.getElementById("testname").innerHTML = ("Hi! My name is " + nextObj.myName );
      //document.getElementById("testname").innerHTML = ("Hi! My name is Michael Caine");
    }
+}
+
+var nextObj = {
+   myName: "Jack"
 }
 
 
