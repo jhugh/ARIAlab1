@@ -5,15 +5,16 @@ var doSum = function() {
   return;
 }
 
-var myObj = {
-   sayHello: function() {
-     document.getElementById("test").innnerHTML = ("Hi! My name is " + this.myName );
-   }, 
-   myName: "John"
-}
-
 var nextObj = {
    myName: "Jack"
 }
+
+var myObj = {
+   myName: "John"
+   sayHello: function() {
+     document.getElementById("test").innnerHTML = ("Hi! My name is " + this.myName );
+   }
+}
+
 
      
