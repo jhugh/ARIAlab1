@@ -9,11 +9,11 @@ var nextObj = {
 }
 
 var myObj = {
+   myName: "John",
    sayHello: function() {
      document.getElementById("testname").innerHTML = ("Hi! My name is " + myName );
      //document.getElementById("testname").innerHTML = ("Hi! My name is Michael Caine");
-   },
-   myName: "John"
+   }
 }
 
 
