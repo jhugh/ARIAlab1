@@ -10,7 +10,7 @@ var nextObj = {
 }
 
 var myObj = {
-   myName: "John"
+   myName: "John",
    sayHello: function() {
      document.getElementById("test").innnerHTML = ("Hi! My name is " + this.myName );
    }
