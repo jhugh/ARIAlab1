@@ -14,7 +14,3 @@ describe("My Converter", function () {
     })
 })
 
-
-
-
-FromMetricToImperial
