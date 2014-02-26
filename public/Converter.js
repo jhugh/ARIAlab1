@@ -3,11 +3,11 @@ var Converter = (function () {
     return {
 
         convertFromImperialToMetric: function (weight) {
-            return (weight * 2.2);
+            return (weight / 2.2);
         },
 
         convertFromMetricToImperial: function (weight) {
-            return (weight / 2.2);
+            return (weight * 2.2);
         }
 
     }
