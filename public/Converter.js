@@ -1,8 +1,5 @@
-// JavaScript source code
 var Converter = (function () {
     // private stuff goes here
-
-
     return {
 
         convertFromImperialToMetric: function (weight) {
