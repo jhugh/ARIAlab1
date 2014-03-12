@@ -8,6 +8,7 @@
         <script src="main.js"></script>
 		<script src="skel.min.js"></script>
         <script src="Converter.js"></script>
+        <script src="ConverterHelper.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -25,28 +26,23 @@
 				</div>
 			<!-- Hero -->
 				<section id="hero">
-					<h2>Converter</h2>
-					<p>Lorem ipsum dolor sit amet sed magna etiam adipiscing.</p>
+					<h2>Hugh Kelly Converter</h2>
+					<p>Convert lbs to kgs and vice versa</p>
 					<a href="#" class="button">Get Started</a>
 				</section>
 			<!-- Features -->
-				<div class="row">
-                    
-
-
-
-
+				<div class="row">                    
 					<section class="4u">
-						<h2>Imperial Weight In Ounces</h2>
-                        <input id="ounceweight" type="number"/>
+						<h2>Imperial Weight In Pounds</h2>
+                        <input id="poundweight" type="number"/>
 					</section>
 					<section class="4u">
-						<h2>Metric Weight</h2>
+						<h2>Metric Weight In KGs</h2>
                         <input id="metricweight" type="number" />
 					</section>
 					<section class="4u">
 						<h2>Converted Value</h2>
-                        <button id="calculatebutton" onclick="">Calculate</button>
+                        <button id="calculatebutton" onclick="ConverterHelper.calcByContext('poundweight','metricweight')">Calculate</button>
 					</section>
 				</div>
 			<!-- Main -->
